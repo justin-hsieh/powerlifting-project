@@ -32,7 +32,7 @@ column1 = dbc.Col(
             style = dict(marginTop= '50px')
         ),
         
-        html.Img(src='assets/head1.jpg',className='rounded mx-auto d-block', style={'height':'3%', 'marginTop':'30px'}),
+        html.Img(src='assets/head1.png',className='rounded mx-auto d-block', style={'height':'3%', 'marginTop':'30px'}),
         
         dcc.Markdown(
             """
