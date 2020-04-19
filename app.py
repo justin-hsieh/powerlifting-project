@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import dash
 import dash_bootstrap_components as dbc
 
@@ -114,5 +113,4 @@ meta_tags=[
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets, meta_tags=meta_tags)
 app.config.suppress_callback_exceptions = True
 app.title = 'total-lifts' # appears in browser title bar
->>>>>>> e88121f640362a25126ee5aa61ff6b8c3f70af8a
 server = app.server

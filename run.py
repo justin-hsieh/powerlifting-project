@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Imports from 3rd party libraries
 import dash
 import dash_bootstrap_components as dbc
@@ -164,5 +163,4 @@ def display_page(pathname):
         return dcc.Markdown('## Page not found')
 
 if __name__ == '__main__':
->>>>>>> e88121f640362a25126ee5aa61ff6b8c3f70af8a
     app.run_server(debug=True)
