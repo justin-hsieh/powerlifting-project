@@ -32,7 +32,7 @@ column1 = dbc.Col(
             style = dict(marginTop= '50px')
         ),
         
-        html.Img(src='assets/head1.png',className='rounded mx-auto d-block', style={'height':'3%', 'marginTop':'30px'}),
+        html.Img(src='assets/head1.png',className='rounded mx-auto d-block', style={'height':'50%', 'marginTop':'30px'}),
         
         dcc.Markdown(
             """
@@ -41,7 +41,7 @@ column1 = dbc.Col(
             """,
             style = dict(marginTop= '50px'),
         ),
-        html.Img(src='assets/na.jpg',className='rounded mx-auto d-block', style={'height':'4%', 'marginTop':'30px'}),
+        html.Img(src='assets/na.png',className='rounded mx-auto d-block', style={'height':'4%', 'marginTop':'30px'}),
         
         dcc.Markdown(
             """
@@ -67,7 +67,7 @@ column1 = dbc.Col(
             style = dict(marginTop= '30px')
         ),
     
-        html.Img(src='assets/gender.jpg',className='rounded mx-auto d-block', style={'height':'5%', 'marginTop':'30px'}),
+        html.Img(src='assets/gender.png',className='rounded mx-auto d-block', style={'height':'5%', 'marginTop':'30px'}),
         
         dcc.Markdown(
             """
@@ -76,8 +76,8 @@ column1 = dbc.Col(
             """,
             style = dict(marginTop= '50px')
         ),
-        html.Img(src='assets/eq1.jpg',className='rounded mx-auto d-block', style={'height':'2%', 'marginTop':'30px'}),
-        html.Img(src='assets/eq2.jpg',className='rounded mx-auto d-block', style={'height':'5%', 'marginTop':'40px'}),
+        html.Img(src='assets/eq1.png',className='rounded mx-auto d-block', style={'height':'2%', 'marginTop':'30px'}),
+        html.Img(src='assets/eq2.png',className='rounded mx-auto d-block', style={'height':'5%', 'marginTop':'40px'}),
         
         dcc.Markdown(
             """
@@ -87,7 +87,7 @@ column1 = dbc.Col(
             style = dict(marginTop= '50px')
         ),
         
-        html.Img(src='assets/age1.jpg',className='rounded mx-auto d-block', style={'height':'5%', 'marginTop':'30px'}),
+        html.Img(src='assets/age1.png',className='rounded mx-auto d-block', style={'height':'5%', 'marginTop':'30px'}),
         
         dcc.Markdown(
             """
@@ -96,7 +96,7 @@ column1 = dbc.Col(
             """,
             style = dict(marginTop= '50px')
         ),
-        html.Img(src='assets/bte.jpg',className='rounded mx-auto d-block', style={'height':'6%', 'marginTop':'30px'}),
+        html.Img(src='assets/bte.png',className='rounded mx-auto d-block', style={'height':'6%', 'marginTop':'30px'}),
         
         dcc.Markdown(
             """
@@ -107,7 +107,7 @@ column1 = dbc.Col(
             style = dict(marginTop= '50px')
         ),
         
-        html.Img(src='assets/df2.jpg',className='rounded mx-auto d-block', style={'height':'2%', 'marginTop':'30px'}),
+        html.Img(src='assets/df2.png',className='rounded mx-auto d-block', style={'height':'2%', 'marginTop':'30px'}),
         
         dcc.Markdown(
             """
@@ -117,7 +117,7 @@ column1 = dbc.Col(
             style = dict(marginTop= '50px'),
         ),
         
-        html.Img(src='assets/split.jpg',className='rounded mx-auto d-block', style={'height':'3%', 'marginTop':'30px'}),
+        html.Img(src='assets/split.png',className='rounded mx-auto d-block', style={'height':'3%', 'marginTop':'30px'}),
         
         dcc.Markdown(
             """
@@ -126,7 +126,7 @@ column1 = dbc.Col(
             """,
             style = dict(marginTop= '50px'),
         ),
-        html.Img(src='assets/pipeline.jpg',className='rounded mx-auto d-block', style={'height':'2%', 'marginTop':'30px'}),
+        html.Img(src='assets/pipeline.png',className='rounded mx-auto d-block', style={'height':'2%', 'marginTop':'30px'}),
         
         dcc.Markdown(
             """
@@ -134,7 +134,7 @@ column1 = dbc.Col(
             """,
             style = dict(marginTop= '50px'),
         ),
-        html.Img(src='assets/randregressor.jpg',className='rounded mx-auto d-block', style={'height':'2%', 'marginTop':'30px'}),
+        html.Img(src='assets/randregressor.png',className='rounded mx-auto d-block', style={'height':'2%', 'marginTop':'30px'}),
         
         dcc.Markdown(
             """
@@ -143,7 +143,7 @@ column1 = dbc.Col(
             style = dict(marginTop= '50px'),
         ),
         
-        html.Img(src='assets/mae.jpg',className='rounded mx-auto d-block', style={'height':'2%', 'marginTop':'30px'}),
+        html.Img(src='assets/mae.png',className='rounded mx-auto d-block', style={'height':'2%', 'marginTop':'30px'}),
         
         dcc.Markdown(
             """
@@ -151,7 +151,7 @@ column1 = dbc.Col(
             """,
             style = dict(marginTop= '50px'),
         ),
-        html.Img(src='assets/perm.jpg',className='rounded mx-auto d-block', style={'height':'7%', 'marginTop':'30px'}),
+        html.Img(src='assets/perm.png',className='rounded mx-auto d-block', style={'height':'7%', 'marginTop':'30px'}),
         dcc.Markdown(
             """
             Tuning the model itself can also yield a better prediction. RandomizedSearchCV finds the optimal model hyperparameters to use by using randomized samples from specified distributions. 
@@ -159,14 +159,14 @@ column1 = dbc.Col(
             style = dict(marginTop= '50px'),
         ),
     
-        html.Img(src='assets/randomcv.jpg',className='rounded mx-auto d-block', style={'height':'5%', 'marginTop':'30px'}),
+        html.Img(src='assets/randomcv.png',className='rounded mx-auto d-block', style={'height':'5%', 'marginTop':'30px'}),
         dcc.Markdown(
             """
             In addition to the Random Forest Regressor, I also tuned an XGBoost Regressor model with RandomizedSearchCV to compare with.
             """,
             style = dict(marginTop= '50px'),
         ),
-        html.Img(src='assets/randomcv1.jpg',className='rounded mx-auto d-block', style={'height':'5%', 'marginTop':'30px'}),
+        html.Img(src='assets/randomcv1.png',className='rounded mx-auto d-block', style={'height':'5%', 'marginTop':'30px'}),
         
         dcc.Markdown(
             """
@@ -174,7 +174,7 @@ column1 = dbc.Col(
             """,
             style = dict(marginTop= '50px'),
         ),
-        html.Img(src='assets/xgbmae.jpg',className='rounded mx-auto d-block', style={'height':'1%', 'marginTop':'30px'}),
+        html.Img(src='assets/xgbmae.png',className='rounded mx-auto d-block', style={'height':'1%', 'marginTop':'30px'}),
         
         
     ],
