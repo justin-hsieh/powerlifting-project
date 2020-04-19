@@ -20,27 +20,4 @@ urllib3 = "*"
 
 [requires]
 python_version = "3.7"
-=======
-[[source]]
-name = "pypi"
-url = "https://pypi.org/simple"
-verify_ssl = true
-
-[dev-packages]
-
-[packages]
-dash = "*"
-dash-bootstrap-components = "*"
-gunicorn = "*"
-plotly = "*"
-pandas = "*"
-scikit-learn = "*"
-category-encoders = "*"
-dash-daq = "*"
-eli5 = "*"
-requests = "*"
-urllib3 = "*"
-
-[requires]
-python_version = "3.7"
 
