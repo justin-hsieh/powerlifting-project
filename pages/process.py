@@ -117,7 +117,7 @@ column1 = dbc.Col(
             style = dict(marginTop= '50px'),
         ),
         
-        html.Img(src='assets/split.jpg',className='rounded mx-auto d-block', style={'height':'1.5%', 'marginTop':'30px'}),
+        html.Img(src='assets/split.jpg',className='rounded mx-auto d-block', style={'height':'3%', 'marginTop':'30px'}),
         
         dcc.Markdown(
             """
